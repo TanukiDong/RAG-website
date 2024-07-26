@@ -44,7 +44,7 @@ def app():
         "Generate Answer",
         hallucination_checker.check_hallucination,
         {
-            "hallucinate": "Generate Answer",
+            "hallucinate": "Filter Documents",
             "useful": END,
             "not useful": "Web Search",
         },
